@@ -1,0 +1,9 @@
+.aboutus {
+  width: 100%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.aboutus > div {
+  font-size: 3rem;
+}

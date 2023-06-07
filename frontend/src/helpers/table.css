@@ -1,0 +1,47 @@
+table {
+  width: 90%;
+  min-width: 600px;
+  margin: auto;
+  margin-top: 1rem;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid rgb(27, 145, 200);
+  overflow: scroll;
+}
+
+th {
+  background-color: aqua;
+  height: 3rem;
+}
+
+tr {
+  border: 1px solid rgba(0, 0, 0, 0.467);
+  height: 2rem;
+}
+
+td {
+  color: rgba(0, 0, 0, 0.514);
+}
+
+tr a {
+  color: rgb(64, 136, 225);
+}
+
+tr a:hover {
+  color: rgb(4, 55, 117);
+}
+
+tr button svg {
+  color: rgb(64, 136, 225);
+}
+
+tr button svg:hover {
+  color: rgb(4, 55, 117);
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

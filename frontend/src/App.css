@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+#root {
+  position: relative;
+}
+.content {
+  min-height: 100vh;
+}

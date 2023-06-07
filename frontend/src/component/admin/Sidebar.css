@@ -1,0 +1,44 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+
+.sidebar > a:first-child {
+  padding: 0;
+}
+
+/* .sidebar > a > img {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.sidebar > a > img:hover {
+  filter: drop-shadow(0, 0, 10px, black);
+} */
+
+.sidebar > a {
+  text-decoration: none;
+  transition: all 0.3s;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  font: 200 1rem "Roboto";
+}
+
+.sidebar > a:hover {
+  color: darkgray;
+  transform: scale(1.1);
+}
+
+.sidebar > a > div {
+  display: flex;
+  align-items: center;
+}
+
+.MuiTypography-root {
+  background-color: white;
+}
+
+.MuiTreeItem-label {
+  color: rgba(0, 0, 0, 0.5);
+}
