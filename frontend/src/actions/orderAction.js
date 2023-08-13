@@ -23,7 +23,7 @@ import {
 import backend from "../helpers/axios";
 
 // Create Order
-export const createOrder = (order) => async (dispatch, getstate) => {
+export const createOrder = (order) => async (dispatch) => {
   try {
     dispatch({ type: CREATE_ORDER_REQUEST });
 

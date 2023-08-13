@@ -35,12 +35,12 @@ app.use(express.urlencoded({ extended: true }));
 //app.use(fileupload());
 //app.use(bodyParser.urlencoded({ extended: true }));
 
-// Middleware for error
-app.use(errorMiddleware);
-
 app.use("/api/v1", order);
 app.use("/api/v1", payment);
 app.use("/api/v1", product);
 app.use("/api/v1", user);
+
+// Middleware for error
+app.use(errorMiddleware);
 
 module.exports = app;

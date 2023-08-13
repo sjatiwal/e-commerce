@@ -8,13 +8,11 @@ import "./OrderSuccess.css";
 
 function OrderSuccess() {
   return (
-    <>
-      <div className="orderSuccess">
-        <CheckCircleIcon />
-        <Typography>Your order has been placed Successfully</Typography>
-        <Link to="/orders">View Orders</Link>
-      </div>
-    </>
+    <div className="orderSuccess">
+      <CheckCircleIcon />
+      <Typography>Your order has been placed Successfully</Typography>
+      <Link to="/orders">View Orders</Link>
+    </div>
   );
 }
 
